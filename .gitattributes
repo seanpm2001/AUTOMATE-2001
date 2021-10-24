@@ -5,12 +5,21 @@
 # .gitattributes
 # and nothing else, no characters before, no characters after
 # Start of linguist script
-# HTML (Duplicate, as it is already detected by GitHub Linguist by default)
+# HTML5 (HyperText Markup Language 5.0)
 *.htm linguist-detectable=true
 *.htm linguist-documentation=false
 *.html linguist-detectable=true
 *.html linguist-documentation=false
-# Do not include, as it would become a dominant language that shouldn't be the language people refer this project to
+*.mhtm linguist-detectable=true
+*.mhtm linguist-documentation=false
+*.mhtml linguist-detectable=true
+*.mhtml linguist-documentation=false
+*.xhtm linguist-detectable=true
+*.xhtm linguist-documentation=false
+*.xhtml linguist-detectable=true
+*.xhtml linguist-documentation=false
+# YAML (YAML Ain't Markup Language)
+# Do not include yet
 *.yml linguist-detectable=false
 *.yml linguist-documentation=false
 *.yaml linguist-detectable=false
@@ -19,13 +28,22 @@
 # Do not include, as it would become the 100% dominant language and would hide all the other languages as "other"
 *.md linguist-detectable=false
 *.md linguist-documentation=false
+*.mkd linguist-detectable=false
+*.mkd linguist-documentation=false
+*.mdown linguist-detectable=false
+*.mdown linguist-documentation=false
+*.markdown linguist-detectable=false
+*.markdown linguist-documentation=false
 # Makefile (GNU Make)
 # Do not include, as it is not needed to be shown
 *.mk linguist-detectable=false
 *.mk linguist-documentation=false
+# JSON (JavaScript Object Notation)
+*.json linguist-detectable=true
+*.json linguist-documentation=false
 # End of linguist script
 # File info
-# File type: .gitattributes file
-# File version: 1 (Monday, 2021 August 23rd at 4:17 pm)
-# Line count (including blank lines and compiler line): 32
+# File type: gitattributes file (.gitattributes)
+# File version: 2 (Saturday, 2021 October 23rd at 7:22 pm)
+# Line count (including blank lines and compiler line): 50
 # End of script
